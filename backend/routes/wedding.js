@@ -5,7 +5,9 @@ const {
   getWeddings, 
   getWeddingById, 
   updateWedding, 
-  deleteWedding 
+
+  
+  deleteWedding
 } = require('../controller/weddingController');
 const { protect } = require('../middleware/auth');
 
